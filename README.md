@@ -15,6 +15,7 @@ Use the explicit deadline from the assignment text:
 
 ## How to use
 1. Open notebook in Colab (GPU runtime).
-2. Place VisDrone DET train/val and MOT val folders under `/content/visdrone` (or edit paths in the notebook).
-3. Run all cells in order.
-4. Fill the final metrics dictionary and analysis text before submission.
+2. Upload the three ZIPs to Colab `/content`: `VisDrone2019-DET-train.zip`, `VisDrone2019-DET-val.zip`, `VisDrone2019-MOT-val.zip`.
+3. Run the extraction cell in the notebook (it validates exact folder names).
+4. Run remaining cells in order and fill final metrics/analysis.
+
